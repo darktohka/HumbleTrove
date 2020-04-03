@@ -8,7 +8,7 @@ class HumbleTrove(object):
         self.base_dir = base_dir
         self.platforms = platforms
         self.full_verify = full_verify
-        self.headers = {'User-Agent': 'Mozilla/5.0', 'cookie': cookie}
+        self.headers = {'User-Agent': 'Mozilla/5.0', 'cookie': '_simpleauth_sess=' + cookie}
 
         self.products = None
         self.verified_products = []
