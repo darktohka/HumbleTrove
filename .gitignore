@@ -1,0 +1,8 @@
+cookie.txt
+
+*.py[c|o]
+__pycache__
+
+windows
+linux
+mac
