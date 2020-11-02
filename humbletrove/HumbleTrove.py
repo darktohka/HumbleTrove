@@ -27,7 +27,7 @@ class HumbleTrove(object):
         print('Fetching Humble Trove product information...')
 
         while True:
-            chunk = requests.get('https://humblebundle.com/api/v1/trove/chunk?index={0}'.format(index)).json()
+            chunk = requests.get('https://humblebundle.com/api/v1/trove/chunk?property=popularity&direction=desc&index={0}'.format(index)).json()
 
             if not chunk:
                 break
